@@ -1,11 +1,11 @@
 from typing import List
 
 def insertionSort(array) -> List[int]:
-  for i in range(1,len(array))
+  for i in range(1,len(array)):
       key = array[n]
       num = n-1
       while num >= 0 and key<array[num]:
-        num += 1
+        num -= 1
       array[num+1] = key
   return array
 
